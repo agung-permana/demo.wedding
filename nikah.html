@@ -5,14 +5,13 @@
     <meta name="theme-color" content="#BC8887" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Doni & Ana</title>
+    <title>Undangan Pernikahan Digital</title>
     
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
     <link rel="stylesheet" type="text/css" href="css/menikah.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <script
       src="https://kit.fontawesome.com/2828f7885a.js"
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
@@ -37,7 +36,22 @@
   </head>
 
   <body>
-    
+    <audio id="song">
+    <source src="sound/melepas-lajang.mp3" type="audio/mpeg">
+    Browsermu tidak mendukung tag audio, upgrade donk!
+  </audio>
+  <button onclick="playAudio()" type="button">Play Audio</button>
+  <button onclick="pauseAudio()" type="button">Pause Audio</button>
+
+  <script type="text/javascript">
+    var el = document.getElementById("song"); 
+    function playAudio() { 
+      el.play(); 
+    } 
+    function pauseAudio() { 
+      el.pause(); 
+    } 
+    </script>
 
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
@@ -90,6 +104,11 @@
         </nav>
         <!-- End Mobile Nav -->
         <!-- Begin Hero Content-->
+        <audio hidden autoplay loop>
+          <source src="Ngoni.mp3" type="audio/mpeg">
+          Browsermu tidak mendukung tag audio
+        </audio>
+
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="subtitle">Undangan Pernikahan</h1>
@@ -129,27 +148,7 @@
               }, function () {
                 alert('Done!');
               });
-            </script> 
-
-            <div class="row has-text-centered">
-              <audio id="song">
-              <source src="sound/melepas-lajang.mp3" type="audio/mpeg">
-              Browsermu tidak mendukung tag audio, upgrade donk!
-            </audio>
-            <button onclick="playAudio()" type="button" class="button is-danger is-small">Play Audio</button>
-            <!-- <button onclick="pauseAudio()" type="button">Pause Audio</button> -->
-
-            <script type="text/javascript">
-              var el = document.getElementById("song"); 
-              function playAudio() { 
-                el.play(); 
-              } 
-              function pauseAudio() { 
-                el.pause(); 
-              } 
-              </script>
-              
-            </div> 
+            </script>  
           </div>
           <br>
           <br>
