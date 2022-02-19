@@ -563,7 +563,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/ana/foto1.jpeg");
+  background-image: linear-gradient(rgba(50, 2, 2, 0.5), rgba(25, 47, 47, 0.1)), url("../image/ana/foto1.jpeg");
   /*background: url('/image/ana/foto1.jpeg') no-repeat;*/
   background-size: cover;
   background-position: center;
@@ -573,7 +573,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/ana/foto1.jpeg");
+  background-image: linear-gradient(rgba(50, 2, 2, 0.5), rgba(25, 47, 47, 0.1)), url("../image/ana/foto1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -581,7 +581,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/ana/foto2.jpeg");
+  background-image: linear-gradient(rgba(50, 2, 2, 0.5), rgba(25, 47, 47, 0.1)), url("../image/ana/foto2.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -589,7 +589,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/ana/foto2.jpeg");
+  background-image: linear-gradient(rgba(50, 2, 2, 0.5), rgba(25, 47, 47, 0.1)), url("../image/ana/foto2.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -597,7 +597,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/ana/foto2.jpeg");
+  background-image: linear-gradient(rgba(50, 2, 2, 0.5), rgba(25, 47, 47, 0.1)), url("../image/ana/foto2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -606,7 +606,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/ana/foto2.jpeg");
+  background-image: linear-gradient(rgba(50, 2, 2, 0.5), rgba(25, 47, 47, 0.1)), url("../image/ana/foto2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -626,9 +626,9 @@ body.preloader-site {
 
 .subtitle-foto {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 14pt;
-  font-weight: 600;
+  font-weight: 200;
+  font-size: 12pt;
+  font-weight: 200;
   margin-top: 15px;
   text-align: left;
   color: white;
